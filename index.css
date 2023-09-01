@@ -1,5 +1,5 @@
 body {
-    background:url(images/background.png);
+ background:url(images/background.png);
    background-size: cover;
    background-repeat: no-repeat;
 }
@@ -15,7 +15,7 @@ header {
 }
 
 
-nav li {
+.topNav li {
     display: inline-block;
     list-style: none;
     justify-content:space-evenly;
@@ -47,105 +47,85 @@ a:hover {
     height: 500px;
    margin-left: 30%;
    margin-top: 70px;
+   position: relative;
 }
 
 h1 {
+position: absolute;
+top: 90%;
+left:50%;
+transform: translate(-50%,-50%);
 color: #07439C;
 text-align: center;
-font-family: Merriweather;
+font-family: Merriweather, Arial, Helvetica, sans-serif;
 font-size: 24px;
-width: auto;
-display: flex;
-justify-content: center;
-}
-
-
-/*button {
-    text-decoration: none;
-    color:white ;
-    font-size: 24px;
-    background-color: #07439C;
-    cursor: pointer;
-    font-family: 'roboto'Arial, Helvetica, sans-serif;
-    border-radius: 20px;
-    width: 210px;
-    border: none;
-    padding: 10px;
-    margin-top: 73px;
-}
-*/
-
-
-/*   
-
-{
-    background-color: #07439C;
-    width: 210px;
-    border: none;
-    color: white;
-    padding: 20px 34px;
-    text-align: center;
-    text-decoration: none;
-    display:flex;
-    justify-content: center;
-    font-size: 20px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 20px;
-    
-}
-*/
-form {
-
-    color: #07439C;
-    cursor: pointer;
-    border-radius: 20px; 
-    
 }
 
 
 
-.button1 {
 
+.btnContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.button {
+    width: 210px;
     padding: 10px;
     background-color: #07439C;
     color: white;
     cursor: pointer;
     border-radius: 20px;
     font-size: 24px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    width: 210px;
-    }
-
-
-
-
-
-.button{
-
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 10px;
-background-color: #07439C;
-color: white;
-cursor: pointer;
-border-radius: 20px;
-font-size: 24px;
-font-family: 'Roboto', Arial, Helvetica, sans-serif;
-
+    font-family: 'roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 10%;
 }
-
-
-
-
 
 .button:hover {
     background-color: pink;
     color: #07439C;
+    
   }
 
-    
+    /*  Footer */
+
+    h2 {
+        position:absolute;
+        top: 130%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        color: #07439C;
+        text-align: center;
+        font-family: Merriweather, Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        }
+
+    .pic {float:right;
+        margin-top: 300px;
+
+    }
+
+ .footer  {    
+    display: flex;
+    justify-content: space-between;
+    padding: 0 64px;
+    font-size: 28px;
+}
+
+    .list2 {
+    list-style: none;
+    margin-bottom: 77px;
+    color: #07439C;
+    }
+
+    h3 {
+        text-align: center;
+        color: #07439C;
+        margin-bottom: 28px;
+    }
+footer{
+    background-color: white;
+}
