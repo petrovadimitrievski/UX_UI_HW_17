@@ -1,5 +1,5 @@
 body {
- background:url(images/background.png);
+   background:url(images/background.png);
    background-size: cover;
    background-repeat: no-repeat;
 }
@@ -21,16 +21,17 @@ header {
     justify-content:space-evenly;
     list-style: none;
     padding: 0px, 20px;
- font-family:'Roboto', Arial, Helvetica, sans-serif;
- font-size: 24px;
- font-weight: 700;
- color: #07439C;
- margin: 74px;
- margin-top: 30px;
+    font-family:'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #07439C;
+    margin: 74px;
+    margin-top: 30px;
 
 }
 
-a { text-decoration: none;
+a { 
+    text-decoration: none;
     cursor: pointer;}
 
 a:hover {
@@ -45,20 +46,20 @@ a:hover {
     justify-content: center;
     width: 670px;
     height: 500px;
-   margin-left: 30%;
-   margin-top: 70px;
-   position: relative;
+    margin-left: 30%;
+    margin-top: 70px;
+    position: relative;
 }
 
 h1 {
-position: absolute;
-top: 90%;
-left:50%;
-transform: translate(-50%,-50%);
-color: #07439C;
-text-align: center;
-font-family: Merriweather, Arial, Helvetica, sans-serif;
-font-size: 24px;
+   position: absolute;
+   top: 90%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   color: #07439C;
+   text-align: center;
+   font-family: Merriweather, Arial, Helvetica, sans-serif;
+   font-size: 24px;
 }
 
 
@@ -103,7 +104,8 @@ font-size: 24px;
         font-size: 24px;
         }
 
-    .pic {float:right;
+    .pic {
+        float:right;
         margin-top: 300px;
 
     }
@@ -115,12 +117,14 @@ font-size: 24px;
     font-size: 28px;
 }
 
+
     .list2 {
     list-style: none;
     margin-bottom: 77px;
     margin-left: 155px;
     color: #07439C;
     }
+
 
     h3, br {
         text-align: center;
