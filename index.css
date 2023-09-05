@@ -94,10 +94,7 @@ h1 {
     /*  Footer */
 
     h2 {
-        position:absolute;
-        top: 130%;
-        left:50%;
-        transform: translate(-50%,-50%);
+        margin-top: 200px;
         color: #07439C;
         text-align: center;
         font-family: Merriweather, Arial, Helvetica, sans-serif;
